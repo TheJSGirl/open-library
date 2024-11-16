@@ -27,4 +27,4 @@ To run the project locally:
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/thejsgirl/open-book-library.git
+git clone https://github.com/TheJSGirl/open-library
