@@ -1,3 +1,7 @@
+# Open Book Library
+
+A simple **Book Library** application built with **Vanilla JavaScript** following the **MVC (Model-View-Controller)** design pattern. This project allows users to manage a collection of books, with functionalities such as adding, deleting, updating, and viewing all books.
+
 ## Features
 - **Add Book**: Add new books to the library by entering the title, author, and other details.
 - **Delete Book**: Remove a book from the library.
