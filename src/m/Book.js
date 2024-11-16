@@ -53,3 +53,13 @@ Book.retrieveAll = function() {
 
   }
 }
+
+Book.delete = function(isbn) {
+  if(Book.instances[isbn]){
+    delete Book.instances[isbn];
+  }
+  else {
+    console.log("There is no book with ISBN " + isbn + " in the database!");
+  }
+
+}
