@@ -6,10 +6,31 @@
     <title>Minimal JS Front-End App Example</title>
     <script src="src/c/initialize.js"></script>
     <script src="src/m/Book.js"></script>
+    <!-- <script src="src/v/createBook.js"></script>
+    <script>
+        window.addEventListener("load", pl.v.createBook.setupUserInterface);
+    </script>
+    <script src="src/v/retrieveAndListAllBooks.js"></script>
+    <script>
+        window.addEventListener( "load",
+          pl.v.retrieveAndListAllBooks.setupUserInterface);
+    </script> -->
 </head>
 
 <body>
   <div>Initial Setup</div>
+  <menu>
+    <li><a href="createBook.html">List of all the books</a>></li>
+
+    <li><a href="createBook.html">Create a book</a>></li>
+    <li><a href="updateBook.html">Update a book</a></li>
+    <li><a href="deleteBook.html">Delete a book</a></li>
+    <li><button type="button" onclick="Book.clearData()">Clear database</button></li>
+    <li><button type="button" onclick="Book.createTestData()">Create test data</button></li>
+  </menu>
 </body>
+<footer>
+  <a href="index.html">Back to main menu</a>
+</footer>
 
 </html>
